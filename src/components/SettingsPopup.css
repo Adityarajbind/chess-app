@@ -1,0 +1,11 @@
+.board_option{
+    width: 25%;
+    padding: 0.5rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.board_option:hover{
+    background-color:rgb(162, 162, 162) ;
+    border-radius: 0.5rem;
+}
