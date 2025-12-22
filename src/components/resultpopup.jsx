@@ -28,7 +28,7 @@ const resultpopup = ({ winner, msg }) => {
     window.location.reload();
   };
   return (
-    <div className="container">
+    <div className="w-4/5 md:w-1/4 bg-gray-500 rounded-lg p-6 shadow-lg text-center absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
       {message}
       <div className="btns">
         <button
