@@ -29,7 +29,7 @@ function App() {
   return (
     <>
       <div className="w-full h-screen " id="black-sheet">
-        <video className="w-[100%] h-[100vh]" autoPlay muted loop>
+        <video className="w-[100%] h-[100vh]" autoPlay muted loop preload="metadata">
           <source src="/assets/bg.mp4" type="video/mp4" />
         </video>
       </div>
