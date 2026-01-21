@@ -156,6 +156,8 @@ const ChessBoard = ({ boardColor, switchTurn, flipboard }) => {
                         src={`/assets/pieces/${square.color}${square.type}.png`}
                         alt={`${square.color}${square.type}`}
                         className="w-[100%] h-[100%] object-contain cursor-grab"
+                        preload="auto"
+                        loading="lazy"
                         draggable
                         onDragStart={(e) => handleDragStart(e, squareNotation)}
                       />
